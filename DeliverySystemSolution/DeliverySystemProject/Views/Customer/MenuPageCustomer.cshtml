@@ -1,0 +1,77 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+
+        <style>
+            ul {
+                margin: 0
+            }
+
+                ul li {
+                    float: left;
+                }
+
+                ul li {
+                    padding: 20px;
+                    list-style: none;
+                }
+        </style>
+        
+
+
+
+
+        <div class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="@Url.Action("AddBooking","Booking")">
+                        <b>New Booking </b><br />
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("AcceptedBookings","Booking")">
+                        <b>Accepted Bookings</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("RecentBookings","Booking")">
+                        <b> Recent Bookings</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("LogOut", "Customer")">
+                        <b>LogOut</b>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <Center>
+            <h1><b><font size="30">welcome Customer !!!!</font></b> </h1>
+            <br />
+            <br />
+            <img src="~/Track-your-order.jpg"  height="400"  width="900"/>
+        </Center>
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
